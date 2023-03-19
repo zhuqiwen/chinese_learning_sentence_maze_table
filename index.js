@@ -1,6 +1,8 @@
 function go(e) {
-    const numRow = document.getElementById('numberRow').value;
-    const numCol = document.getElementById('numberCol').value;
+    const numRow = Number(document.getElementById('numberRow').value);
+    const numCol = Number(document.getElementById('numberCol').value);
+
+    console.log(numRow)
 
     const sentence = document.getElementById('sentence').value;
     const chars = document.getElementById('chars').value;
