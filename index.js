@@ -1,6 +1,6 @@
 function go(e) {
-    const numRow = 7;
-    const numCol = 10;
+    const numRow = document.getElementById('numberRow').value;
+    const numCol = document.getElementById('numberCol').value;
 
     const sentence = document.getElementById('sentence').value;
     const chars = document.getElementById('chars').value;
